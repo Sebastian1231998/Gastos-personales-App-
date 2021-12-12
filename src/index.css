@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body::-webkit-scrollbar, .modal-mercado::-webkit-scrollbar {
+  width: 15px;
+}
+
+body::-webkit-scrollbar-thumb, .modal-mercado::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+
+  background-color: #4c87df;
+}
+
+.barra-azul::-webkit-scrollbar-thumb, .modal-mercado::-webkit-scrollbar-thumb {
+  background-color: #4c87df;
+  border-radius: 5px;
+}
+
+.barra-azul::-webkit-scrollbar, .modal-mercado::-webkit-scrollbar {
+  width: 15px;
+}
+
+.body-message-content::-webkit-scrollbar {
+  width: 10px;
+}
+
+.body-message-content::-webkit-scrollbar-thumb {
+  background-color: #c2c4c7;
+  border-radius: 5px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* utilidades */
+.white-color {
+  color: white;
+}
+.margin-left-1 {
+  margin-left: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0;
+}
+
+.padding-b-1r {
+  padding-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.negrilla {
+  font-weight: bold;
+}
+
+.wd-100 {
+  width: 100% !important;
+}
+
+/* Flex principal */
+
+.workspace-flex {
+  display: flex;
+}
+
+.menu-principal {
+  flex: 0 0 calc(15.3% - 1rem);
+  min-height: 100vh;
+  background-color: #86b3ff;
+}
+/* Sidebar ¨*/
+
+.name-menu {
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.avatar {
+  text-align: center;
+}
+.avatar-menu {
+  width: 80px;
+  height: 80px;
+  border-radius: 5rem;
+  margin-bottom: 1rem;
+}
+
+.content-menu-header {
+  padding: 2rem;
+}
+.content-menu-header span.name-menu {
+  font-weight: bold;
+}
+
+.content-menu-header span {
+  color: white;
+}
+
+.background-menu {
+  background-image: url(./static/img/water.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #8a89e1;
+}
+
+.ul-menu {
+  padding-left: 2rem;
+}
+
+.collapsible-header {
+  border-bottom: 1px solid #686565;
+}
+
+.menu-collapse {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-collapse li .collapsible-header {
+  transition: all 0.5s ease-in-out;
+  background-color: #86b3ff;
+}
+
+.menu-collapse li .collapsible-header:hover {
+  background-color: #448aff;
+}
+
+/* Workspace */
+
+.workspace {
+  width: 100%;
+}
+.servicios {
+  width: 100%;
+}
+
+/* servicios publicos */
+
+.servicios {
+  display: flex;
+}
+.table-information {
+  flex: 0 0 calc(65% - 1rem);
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.section-info p {
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 3;
+}
+
+.section-info .valor-factura {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.section-info p span {
+  color: #039be5;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.hr-resumen {
+  height: 2px;
+  background-color: #a59d9d;
+  margin: 0;
+}
+
+.valor-factura {
+  text-align: right;
+  display: block;
+}
+.hero-info-agua {
+  background-image: url(./static/img/hero_agua.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+}
+
+.hero-info-luz {
+  background-image: url(./static/img/hero_luz.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+}
+
+.hero-info-gas {
+  background-image: url(./static/img/hero_gas.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+}
+
+.hero-info-internet {
+  background-image: url(./static/img/hero_internet.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30rem;
+}
+.tabs-service {
+  display: flex;
+  justify-content: space-around;
+}
+.button_form {
+  padding: 1rem !important;
+  border: none;
+  background-color: #8994e5;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+
+a.button {
+  padding: 0 0 1rem 0;
+  border: none;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5rem;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  background-color: #79a7f3;
+}
+
+.button_form:hover {
+  background-color: #79a7f3;
+}
+
+input.button {
+  background-color: #79a7f3 !important;
+}
+a.button:hover {
+  background-color: #4177ff;
+}
+
+input.button {
+  color: white !important;
+}
+.button-servicio {
+  border: none;
+  padding: 1rem;
+  background-color: #4177ff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 1rem;
+  width: 100%;
+  margin: 4rem 0;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+.tabla-publicos {
+  background-color: #039be5;
+}
+
+.tabla-publicos th {
+  border-radius: unset;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: unset;
+}
+hr {
+  border: none;
+  background-color: #79a7f3;
+  height: 5px;
+  margin-top: 4rem;
+}
+
+hr.resumen-mercado {
+  height: 1px;
+  margin-top: 0 !important;
+}
+
+td {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+th {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.container-info-add {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.tab-seleccionado {
+  background-color: #aa9fef !important;
+  color: white;
+}
+.seccion {
+  display: none;
+}
+
+.mostrar-seccion {
+  display: block;
+}
+
+.servicio-seleccionado {
+  background-color: #1566ed !important;
+}
+
+.flex-acciones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-submit-servicio {
+  display: block;
+}
+select {
+  display: block;
+  margin: 2rem 0rem;
+}
+
+.delete-resumen {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.servicio-head {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.pagination {
+  text-align: right;
+}
+/* Header */
+nav {
+  background-color: white;
+}
+.contenedor-header {
+  width: 1600px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.heigth-serviciopub-card {
+  height: 234.63px;
+}
+
+.ver-mas {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Alertas */
+
+.mensaje {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.error {
+  background-color: #fb4b4b;
+}
+.exito {
+  background-color: #4bfb55;
+}
+.info {
+  background-color: #79a7f3;
+}

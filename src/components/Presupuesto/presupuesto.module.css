@@ -1,0 +1,19 @@
+
+.flex-header-perfil{
+   display: flex;
+   gap:1rem;
+   justify-content: space-between;
+}
+.foto-perfil{
+    width: 200px;
+    height: 200px;
+    margin-top: 3rem;
+}
+.content-info-perfil{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.texto_grafica{
+    margin: 2rem 0;
+}

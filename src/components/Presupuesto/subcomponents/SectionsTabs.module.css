@@ -1,0 +1,53 @@
+.presupuesto-total{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #43ed43;
+    color: white;
+    font-weight: bold;
+  
+ 
+}
+
+.presupuesto{
+    font-size: 3rem;
+}
+.agregar_presupuesto{
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #b2b746;
+    color: white;
+    font-weight: bold;
+    margin: 1rem;
+    padding:.5rem;
+    cursor:pointer;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.agregar_presupuesto:hover{
+
+    background-color: #e4eb45;
+
+}
+
+.centerContent{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.option_section{
+    text-align: center;
+    margin: 1rem 1rem;
+    color: white;
+    background-color: goldenrod;
+    cursor:pointer;
+}
+
+.grid_buttons{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 0;
+}
+
