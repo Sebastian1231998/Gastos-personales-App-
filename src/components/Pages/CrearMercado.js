@@ -64,6 +64,8 @@ const CrearMercado = () => {
       localStorage.setItem("productos", JSON.stringify([]));
     }
     // eslint-disable-next-line
+
+    
   }, [productos]);
 
   return (

@@ -29,7 +29,6 @@ const TablaContent = ({
 
     if (validaTransacciones) {
       obtenerTransacciones();
-
       if (transacciones.length > 0) {
         extraeKey(transacciones);
       }
@@ -43,6 +42,8 @@ const TablaContent = ({
     modificarTotalKeys(keys.filter((key) => key !== "__v"));
     modificarTablaState(abstractContent);
   };
+
+
 
   return (
     <Fragment>
